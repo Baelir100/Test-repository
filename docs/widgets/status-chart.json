@@ -1,0 +1,11 @@
+[ {
+  "uid" : "85c199ff57e17487",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1631711497162,
+    "stop" : 1631711502661,
+    "duration" : 5499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
