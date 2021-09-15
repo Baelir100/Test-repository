@@ -1,5 +1,13 @@
 name: Main Github Actions
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
   push:
     branches:
       - 'master' # (main branch) Set branch of the GH repo to push      
