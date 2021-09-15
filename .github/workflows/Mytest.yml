@@ -2,7 +2,8 @@ name: Main Github Actions
 on:
   push:
     branches:
-      - 'master' # (main branch) Set branch of the GH repo to push
+      - 'master' # (main branch) Set branch of the GH repo to push      
+workflow_dispath
 jobs:
   test_suite: # Name of the job
       runs-on: ubuntu-20.04 # Choosing OS
