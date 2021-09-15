@@ -51,6 +51,7 @@ jobs:
         if: always()
         env:
           API_TOKEN_GITHUB: ${{ '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' }} # Instruction where to get token is below
+          GITHUB_TOKEN: ${{ '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' }}
         with:
           source-directory: 'docs'
           destination-github-username: 'Baelir100' # Your username
