@@ -45,7 +45,6 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
         env:
-          TOKEN: $GITHUB_ACTOR:${{ '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' }}
           API_TOKEN_GITHUB: ${{ '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' }} # Instruction where to get token is below
         with:
           source-directory: 'docs'
